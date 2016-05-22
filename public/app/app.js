@@ -18,30 +18,13 @@
                     4. resolve (if you want to load data before loading the view)
                     5. template (HTML string of template)
             **/
-			.when("/login", {
-				templateUrl : "app/modules/login/login.template.html",
-				controller : "LoginController"
-			})
 			.when("/dash", {
-				templateUrl : "app/modules/dashboard/dashboard.template.html",
-				
-			})
-			.when("/quiz", {
-				templateUrl : "app/modules/quiz/quiz.template.html",
-				controller : "QuizController"
-			})
-			.when("/references", {
-				templateUrl : "app/modules/references/references.template.html",
-				controller : "ReferencesController"
-			})
-			.when("/tutorials", {
-				templateUrl : "app/modules/tutorials/tutorials.template.html",
-				controller : "TutorialsController"
+				templateUrl : "app/modules/dashboard/dashboard.template.html"
 			})
 			
             /**
                 Used to redirect 404 pages.
             **/
-			.otherwise("/login");
+			.otherwise("/dash");
 	});
 })();

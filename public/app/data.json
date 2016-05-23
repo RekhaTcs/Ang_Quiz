@@ -1,0 +1,432 @@
+{
+  "courses" : [{  
+                   "id":12345
+                  "title" : "AngularJs",
+                  "icon" : "../images/angular_icon.png",
+				  "quiz":[{
+				          "question":"What is deep linking in AngularJS?",
+						  "options":["Deep linking allows you to encode the state of application in the Url so that it cane be bookmarked.",
+						             "Deep linking is a SEO based technique",
+									 "Deep linking refers to  linking various views to central page",
+									 "None of the above"],
+						  "answer":"Deep linking allows you to encode the state of application in the Url so that it cane be bookmarked."
+				        },
+						{
+				          "question":"What is MVC?",
+						  "options":["MVC is a name of an algorithm",
+						             "MVC is a software design pattern for developing web applications",
+									 "MVC is a software technique to optimize web application performance",
+									 "None of the above"],
+						  "answer":"MVC is a software design pattern for developing web applications"
+				        },
+						{
+				          "question":"In controllers, model data is accessed via $scope object.",
+						  "options":["True","False"],
+						  "answer":"true"
+				        },
+						{
+				          "question":"Which of the following is true about $routeProvider?",
+						  "options":["$routeProvider is  key service which sets the configuration of urls ",
+						             "$routeProvider maps urls with the corresponding html page or ng-template ",
+									 "$routeProvider attaches controller with the view" ,
+									 "All of the above"],
+						  "answer":"All of the above"
+				        },
+						{
+				          "question":"How angular.module works?",
+						   "options":["angular.module is used to create AngularJs modules along with its dependent modules",
+						             "angular.module is primarily used to create application module ",
+									 "Both of the above" ,
+									 "None of the above"],
+						  "answer":"Both of the above"
+				        },
+						{
+				          "question":"Which of the following is true about ng-model directive?",
+						  "options":["ng-model directive binds the values of Angular js application data to HTML input controls",
+						             "ng-model directive creates a model variable which can be used with the html page and within the container control having ng-app directive",
+									 "Both of the above" ,
+									 "None of the above"],
+						  "answer":"Both of the above"
+				        },
+						{
+				          "question":"Which of the following is true about orderby filter?",
+						  "options":["orderby filter orders the array based on provided criteria",
+						             "orderby filter is used to filter the array to a subset of it based on provided criteria",
+									 "Both of the above" ,
+									 "None of the above"],
+						  "answer":"orderby filter orders the array based on provided criteria"
+				        },{
+				          "question":"$http service is used to make an Ajax call to server.",
+						  "options":["True","False"],
+						  "answer":"true"
+				        },
+						{
+				          "question":"factory method is used to define a factory which can later be used to create services as and when required.",
+						  "options":["True","False"],
+						  "answer":"true"
+				        },
+						{
+				          "question":"Which of the following is true about provider?",
+						  "options":["provider is used by angularJs to create services, factory etc. ",
+						             "provider is used during config phase",
+									 "provider is a special factory method" ,
+									 "All of the above"],
+						  "answer":"All of the above"
+				        }];
+  
+  
+					},
+					
+					{  
+                   "id":23456
+                  "title" : "ReactJs",
+                  "icon" : "../images/react_icon.png",
+				  "quiz":[{
+				          "question":"ReactJS is developed by _____?",
+						  "options":["Google Engineers",
+						             "Facebook Engineers"
+									 ],
+						  "answer":"Facebook Engineers"
+				        },
+						{
+				          "question":"Which of the following concepts is/are key to ReactJS?",
+						  "options":["Component-oriented design",
+						             "Event delegation model",
+									 "Both of the above"],
+						  "answer":"MVC is a software design pattern for developing web applications"
+				        },
+						{
+				          "question":"ReactJS focuses on which of the following part when considering MVC?",
+						  "options":["M (Model)","V (View)","C (Controller)"],
+						  "answer":"V (View)"
+				        },
+						{
+				          "question":"Which of the following needs to be updated to achieve dynamic UI updates?",
+						  "options":["props",
+						             "state"],
+						  "answer":"state"
+				        },
+						{
+				          "question":"Which of the following API is a MUST for every ReactJS component?",
+						   "options":["getInitialState",
+						             "render",
+									 "renderComponent" ],
+						  "answer":"render"
+				        },
+						{
+				          "question":"JSX transformer is a MUST to work with ReactJS",
+						  "options":["True",
+						             "False"
+									 ],
+						  "answer":"False"
+				        },
+						{
+				          "question":"A component in ReactJS could be composed of one or more inner components",
+						  "options": ["True",
+						             "False"
+									 ],
+						  "answer":"True"
+				        },{
+				          "question":"Which of the following is used to pass the data from parent to child",
+						  "options":["state","props"],
+						  "answer":"props"
+				        },
+						{
+				          "question":" 'div' defined within render method is an actual DOM div element",
+						  "options":["True","False"],
+						  "answer":"False"
+				        },
+						{
+				          "question":" ReactJS is an MVC based framework?",
+						  "options":["True","False"],
+						  "answer":"False"
+				        }];
+  
+  
+					},
+                     
+					{  
+                   "id":34567
+                  "title" : "NodeJS",
+                  "icon" : "../images/node_icon.png",
+				  "quiz":[{
+				          "question":"How Node based web servers are different from traditional web servers?",
+						  "options":["Node based server process request faster than traditional server",
+						             "Node based server uses a single threaded model and can services much larger number of requests than traditional server like  Apache HTTP server",
+									 "There is no much difference between the two",
+									 "None of the above"],
+						  "answer":"Node based server uses a single threaded model and can services much larger number of requests than traditional server like  Apache HTTP server"
+				        },
+						{
+				          "question":"What is use of Underscore Variable in REPL session?",
+						  "options":["to get the last commmand used",
+						             "to get the last result",
+									 "to store the result",
+									 "None of the above"],
+						  "answer":"to get the last result"
+				        },
+						{
+				          "question":"Which of the following code gets length of a buffer buf?",
+						  "options":["buf.length","buf.size","buf.length()","buf.size()"],
+						  "answer":"buf.length"
+				        },
+						{
+				          "question":"Which of the following is true about __dirname global object?",
+						  "options":["The __dirname represents the name of the directory that the currently executing script resides in. ",
+						             "__dirname represents the resolved absolute path of code file. ",
+									 "Both of the Above" ,
+									 "None of the above"],
+						  "answer":"The __dirname represents the name of the directory that the currently executing script resides in"
+				        },
+						{
+				          "question":"Which of the following is true about process global object?",
+						   "options":["The process object is an instance of EventEmitter",
+						             "process emits exit event when process is about to exit",
+									 "process emits uncaughtException when an exception bubbles all the way back to the event loop" ,
+									 "All of the above"],
+						  "answer":"All of the above"
+				        },
+						{
+				          "question":"Which of the following module is required to create a web server?",
+						  "options":["url module",
+						             "net module",
+									 "http module" ,
+									 "web module"],
+						  "answer":"http module"
+				        },
+						{
+				          "question":"A stream fires data event when there is data available to read.",
+						  "options":["True",
+						             "False"],
+						  "answer":"True"
+				        },{
+				          "question":"In which of the following areas, Node.js is not advised to be used?",
+						  "options":["Single page Applications","JSON APIs based Applications","CPU intensive Applications","Data Intensive Realtime Applications (DIRT)"],
+						  "answer":"CPU intensive Applications"
+				        },
+						{
+				          "question":" What is Callback?",
+						  "options":["Callback is an asynchronous equivalent for a function",
+						             "Callback is a technique in which a method call back the caller method",
+									 "Both of the Above",
+									 "None of the Above"],
+						  "answer":"Callback is an asynchronous equivalent for a function"
+				        },
+						{
+				          "question":"What REST stands for?",
+						  "options":["Representational state transfer ",
+						             "Resource efficient state transfer",
+									 "Real elegant state transfer" ,
+									 "Resource elegant state transfer"],
+						  "answer":"Representational state transfer "
+				        }];
+  
+  
+					},
+					
+					
+					{  
+                   "id":45678
+                  "title" : "Css",
+                  "icon" : "../images/css_icon.png",
+				  "quiz":[{
+				          "question":"Where in an HTML document is the correct place to refer to an external style sheet?",
+						  "options":["In the <head> section",
+						             "At the top of the document",
+									 "In the <body> section",
+									 "At the end of the document"],
+						  "answer":"In the <head> section"
+				        },
+						{
+				          "question":"Which HTML tag is used to define an internal style sheet?",
+						  "options":["<style>",
+						             "<script>",
+									 "<css>"],
+						  "answer":"<style>"
+				        },
+						{
+				          "question":" How do you add a background color for all &lt;h1&gt; elements?",
+						  "options":["h1 {background-color:#FFFFFF}","all.h1 {background-color:#FFFFFF}","h1.all {background-color:#FFFFFF}"],
+						  "answer":"h1 {background-color:#FFFFFF}"
+				        },
+						{
+				          "question":"How do you change the text color of an element?",
+						  "options":["color: ",
+						             "text-color:",
+									 "text-color=" ,
+									 "fgcolor:"],
+						  "answer":"color:"
+				        },
+						{
+				          "question":"What is the correct CSS syntax for making all the elements bold?",
+						   "options":["p {font-weight:bold}",
+						             "<p style='font-size:bold'>",
+									 "<p style='text-size:bold'>" ,
+									 "p {text-size:bold"],
+						  "answer":"p {font-weight:bold}"
+				        },
+						{
+				          "question":" How do you display hyperlinks without an underline?",
+						  "options":["a {decoration:no underline}",
+						             "a {underline:none}",
+									 "a {text-decoration:none}" ,
+									 "a {text-decoration:no underline}"],
+						  "answer":"a {text-decoration:none}"
+				        },
+						{
+				          "question":" To define the space between the element's border and content, you use the padding property, but are you allowed to use negative values?",
+						  "options":["Yes",
+						             "No"],
+						  "answer":"No"
+				        }];
+  
+  
+					},
+					
+					
+					{  
+                   "id":56789
+                  "title" : "MongoDB",
+                  "icon" : "../images/mongodb_icon.png",
+				  "quiz":[{
+				          "question":"The architecture of a replica set affects the set’s _________ and capability.",
+						  "options":["scalability",
+						             " capacity",
+									 "performance",
+									 "All of the mentioned"],
+						  "answer":"capability"
+				        },
+						{
+				          "question":" Point out the wrong statement",
+						  "options":["Even number of members ensures that the replica set is always able to elect a primary",
+						             "Arbiters do not store a copy of the data and require fewer resources",
+									 "You may run an arbiter on an application server or other shared process",
+									 "None of the mentioned"],
+						  "answer":"Even number of members ensures that the replica set is always able to elect a primary"
+				        },
+						{
+				          "question":"The standard replica set deployment for production system is a ___-member replica set.",
+						  "options":["Two","Three","Four","Five"],
+						  "answer":"Three"
+				        },
+						{
+				          "question":"_________ for a replica set is the number of members that can become unavailable and still leave enough members in the set to elect a primary.",
+						  "options":["Fault tolerance",
+						             "Reliability",
+									 "Security" ,
+									 "None of the mentioned"],
+						  "answer":"Fault tolerance"
+				        },
+						{
+				          "question":"Without a primary, a replica set cannot accept ________ operations.",
+						   "options":["Read",
+						             "Write ",
+									 "read write" ,
+									 "All of the mentioned"],
+						  "answer":"Write"
+				        },
+						{
+				          "question":" _________ member is used to support dedicated functions, such as backup or reporting.",
+						  "options":["Hidden","Primary","ViewStae","None of the mentioned"],
+						  "answer":"Hidden"
+				        },
+						{
+				          "question":"To protect your data if your main data center fails, keep at least _______ member in an alternate data center.",
+						  "options":["One",
+						             "Two",
+									 "Three" ,
+									 "None of the mentioned"],
+						  "answer":"One"
+				        },
+						{
+				          "question":"_________ sets also allow the routing of read operations to specific machines.",
+						  "options":["Field",
+						             "Read",
+									 " Tag" ,
+									 "All of the above"],
+						  "answer":" Tag"
+				        }];
+ 
+  
+					},
+					
+					{  
+                   "id":89076
+                  "title" : "Android",
+                  "icon" : "../images/android_icon.png",
+				  "quiz":[{
+				          "question":"Once installed on a device, each Android application lives in_______?",
+						  "options":["device memory",
+						             "external memory",
+									 "security sandbox",
+									 "None of the above"],
+						  "answer":"security sandbox"
+				        },
+						{
+				          "question":"What is Pending Intent in android?",
+						  "options":["It is a king of an intent",
+						             "It is used to pass data between activities",
+									 "It will fire at a future point of time",
+									 "None of the above"],
+						  "answer":"It will fire at a future point of time"
+				        },
+						{
+				          "question":"What is android view group?",
+						  "options":["Collection of views and child views","Base class of building blocks",
+						              "Layouts","None of the Above"],
+						  "answer":"Collection of views and child views"
+				        },
+						{
+				          "question":" What is an anonymous class in android?",
+						  "options":["Interface class",
+						             "Java class ",
+									 "Manifest file" ,
+									 "A class that does not have a name but have functionalities in it."],
+						  "answer":"A class that does not have a name but have functionalities in it."
+				        },
+						{
+				          "question":"Which one is NOT related to fragment class?",
+						   "options":["DialogFragment",
+						             "ListFragment",
+									 "PreferenceFragment" ,
+									 "CursorFragment"],
+						  "answer":"CursorFragment"
+				        },
+						{
+				          "question":"Definition of Loader?",
+						  "options":["loaders make it easy to asynchronously load data in an activity or fragment.",
+						             "loaders make it easy to synchronously load data in an activity or fragment.",
+									 "loaders does not make it easy to asynchronously load data in an activity or fragment." ,
+									 "None of the above"],
+						  "answer":"loaders make it easy to asynchronously load data in an activity or fragment."
+				        },
+						{
+				          "question":"How many ways to start services?",
+						  "options":["Started",
+						             "Bounded",
+									 "A and B" ,
+									 "None of the above"],
+						  "answer":"A and B"
+				        },{
+				          "question":"Layouts in android?",
+						  "options":["Frame Layout","Relative Layout","Linear Layout","Table Layout","All of the above"],
+						  "answer":"All of the above"
+				        },
+						{
+				          "question":"If you want share the data accross the all applications ,you should go for?",
+						  "options":["Shared Preferences","Internal Storage","SQLite Databases","content provider"],
+						  "answer":"content provider"
+				        },
+						{
+				          "question":" What is the difference between Activity context and Application Context?",
+						  "options":["The Activity instance is tied to the lifecycle of an Activity. while the application instance is tied to the lifecycle of the application",
+						             "The Activity instance is tied to the lifecycle of an Activity. while the application instance is tied to the lifecycle of the application",
+									 "The Activity instance is tied to the lifecycle of an Activity. while the application instance is tied to the lifecycle of the application" ,
+									 "None of the above"],
+						  "answer":"The Activity instance is tied to the lifecycle of an Activity. while the application instance is tied to the lifecycle of the application,"
+				        }];
+  
+  
+					}
+  ]
+}
